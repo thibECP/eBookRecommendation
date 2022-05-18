@@ -19,7 +19,7 @@ st.title('eBook recommender: demo')
 #Import useful data
 X_train_tf = load_npz("X_train_tf.npz")
 X_train_tf_tsne = np.load("tsne.npy")
-data = pd.read_csv("../data/kindlebookdataset/Kindle_Book_Dataset.csv")
+data = pd.read_csv("Kindle_Book_Dataset.csv")
 count_vect = load("count_vect.joblib")
 tf_transformer = load("tf_transformer.joblib")
 
